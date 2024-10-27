@@ -1,0 +1,71 @@
+/* Reset basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 0 10px;
+}
+
+/* Header Styling */
+header {
+    background: linear-gradient(135deg, #2a2a72, #009ffd);
+    color: #fff;
+    padding: 40px 0;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 2.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* Menu Section */
+.menu {
+    margin: 30px 0;
+}
+
+.menu-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Menu Item Styling */
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.menu-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+}
